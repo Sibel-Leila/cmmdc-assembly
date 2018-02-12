@@ -1,0 +1,23 @@
+----------------------- CMMDC - IOCLA ---------------------------------
+
+ Numele: BECHIR Sibel-Leila
+ Grupa: 322 CC
+
+    Program în limbaj de asamblare care efectueaza conversia unui numar intr-o baza data si afisează rezultatul.
+    Numarul ce trebuie convertit este un număr intreg pozitiv pe 32 de biti, iar baza poate să fie între 2 si 16.
+
+   Am implementat acest program in urmatorul mod:
+- am memorat numarul si baza in diferite registre
+- am verificat daca baza este corecta, iar in cazul contrar am afisat un mesaj de eroare
+- daca este baza corecta, am facut impartiri succesive pana cand catul a devenit zero, iar restul este mereu stocat intr-o stiva 
+- am folosit un index pentru a memora dimensiunea stivei
+- extragem fiecare element din stiva si verificam daca este mai mare ca 10
+- daca da, am implementat functia print_hex care face conversia ASCII prin adunarea lui 87.
+- daca nu, am continuat si am printat cifra
+- la final am incheiat programul.
+
+    Mai multe detalii le gasiti in comentariile din program.
+    Am petrecut 6 ore pentru rezolvarea acestei teme.
+
+    Altele:
+- implementat in SASM - Windows
